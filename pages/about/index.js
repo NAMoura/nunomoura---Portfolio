@@ -125,7 +125,7 @@ const About = () => {
             exit="hidden"
             className="mas-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            From roles in graphic design to my journey in video & photography, I&apos;ve honed creativity and collaboration. 
+            From roles in graphic design to my journey in video & photography, Ive honed creativity and collaboration. 
             Transitioning to development, I combine artistic flair with coding skills, creating well-rounded digital experiences.
           </motion.p>
           {/* counters */}
@@ -183,7 +183,25 @@ const About = () => {
             })}
           </div>
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start ">
-           
+            {aboutData[index].info.map((item, itemIndex) => {
+              return (
+                <div
+                  key={itemIndex}
+                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60 "
+                >
+                  {/* title */}
+                  <div className="font-light mb-2 md:mb-0 text-white/90">{item.title}</div>
+                  <div className="hidden md:flex text-accent">&gt;</div>
+                  <div>{item.stage}</div>
+                  <div className="flex gap-x-4 mb-2">
+                    {/* îcons */}
+                    {/* {item.icons?.map((icon, itemIndex) => {
+                      return <div key={itemIndex} className="text-2xl text-white">{icon}</div>;
+                    })} */}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </motion.div>
       </div>
