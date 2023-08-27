@@ -1,3 +1,4 @@
+
 //import swiper react components (https://swiperjs.com/react)
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,25 +26,25 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/mockup1.png",
+          path: "/Mockup1.png",
           state: "in progress",
           url: "https://namoura.github.io/",
         },
         {
           title: "title",
-          path: "/mockup2.png",
+          path: "/Mockup2.png",
           state: "in progress",
           url: "https://ls-website-seven.vercel.app/",
         },
         {
           title: "title",
-          path: "/mockup3.png",
+          path: "/Mockup3.png",
           state: "finished",
           url: "https://photo-store-iota.vercel.app/",
         },
         {
           title: "title",
-          path: "/mockup4.png",
+          path: "/Mockup4.png",
           state: "finished",
           url: "https://job-search-ruby.vercel.app/",
         },
@@ -53,25 +54,25 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/mockup5.png",
+          path: "/Mockup5.png",
           state: "finished",
           url: "https://warm-bienenstitch-60cce0.netlify.app/index.html",
         },
         {
           title: "title",
-          path: "/public/mockup6.png",
+          path: "/Mockup6.png",
           state: "finished",
           url: "https://mellifluous-concha-a6d15f.netlify.app/",
         },
         {
           title: "title",
-          path: "/mockup_cs_l.png",
+          path: "/Mockup_cs_l.png",
           state: "finished",
           url: "",
         },
         {
           title: "title",
-          path: "/mockup_cs_r.png",
+          path: "/Mockup_cs_r.png",
           state: "finished",
           url: "",
         },
