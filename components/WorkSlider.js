@@ -25,25 +25,25 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/public/mockup1.png",
+          path: "/mockup1.png",
           state: "in progress",
           url: "https://namoura.github.io/",
         },
         {
           title: "title",
-          path: "/public/mockup2.png",
+          path: "/mockup2.png",
           state: "in progress",
           url: "https://ls-website-seven.vercel.app/",
         },
         {
           title: "title",
-          path: "/public/mockup3.png",
+          path: "/mockup3.png",
           state: "finished",
           url: "https://photo-store-iota.vercel.app/",
         },
         {
           title: "title",
-          path: "/public/mockup4.png",
+          path: "/mockup4.png",
           state: "finished",
           url: "https://job-search-ruby.vercel.app/",
         },
@@ -53,7 +53,7 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/public/mockup5.png",
+          path: "/mockup5.png",
           state: "finished",
           url: "https://warm-bienenstitch-60cce0.netlify.app/index.html",
         },
@@ -65,13 +65,13 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/public/mockup_cs_l.png",
+          path: "/mockup_cs_l.png",
           state: "finished",
           url: "",
         },
         {
           title: "title",
-          path: "/public/mockup_cs_r.png",
+          path: "/mockup_cs_r.png",
           state: "finished",
           url: "",
         },
