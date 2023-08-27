@@ -2,9 +2,6 @@
 import Burst from "/components/Burst";
 import FormContainer from "/components/FormContainer";
 
-//icons
-import { BsArrowRight } from "react-icons/bs";
-
 //framer
 import { motion } from "framer-motion";
 
@@ -26,7 +23,7 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Let's <span className="text-accent">connect.</span>
+            Let&apos;s <span className="text-accent">connect.</span>
           </motion.h2>
           {/* form */}
           <motion.div
