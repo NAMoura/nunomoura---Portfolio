@@ -1,6 +1,3 @@
-// next link
-import Link from "next/link";
-
 // components
 import ParticleContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
@@ -37,7 +34,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Hello, I&apos;m Nuno, a junior fullstack developer. My passion lies in coding ideas into immersive digital realities, turning concepts into tangible web experiences. Welcome to my portfolio.
+            Hello, I&apos;m Nuno, a junior full stack developer. My passion lies in coding ideas into immersive digital realities, turning concepts into tangible web experiences. Welcome to my portfolio.
           </motion.p>
           {/* btns */}
           <div className="flex justify-center xl:hidden relative z-10">

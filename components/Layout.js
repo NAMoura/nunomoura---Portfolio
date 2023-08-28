@@ -13,12 +13,14 @@ const sora = Sora ({
 import Nav from '../components/Nav'
 import Header from '../components/Header'
 import TopLeftImg from '../components/TopLeftImg'
+import Meta from '../components/Meta';
 
 
 const Layout = ({children}) => {
   return (
   
     <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative `}>
+      <Meta />
       <Nav />
       <Header />
       <TopLeftImg />

@@ -78,7 +78,7 @@ export const aboutData = [
     title: "education",
     info: [
       {
-        title: "Junior FullStack Developer - <Academia de Código_>",
+        title: "Junior Full Stack Developer - <Academia de Código_>",
         stage: "2023",
       },
       {

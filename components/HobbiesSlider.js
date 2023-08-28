@@ -34,7 +34,7 @@ const testimonialData = [
     title: 'photography',
     icon: <IoIosCamera />,
     text:
-      "Embarked on my photographic journey in 2016, capturing moments through the lens. From astrophotography to landscapes and storm chasing, I've explored diverse realms of visual storytelling."
+      "I embarked on my photographic journey in 2016, capturing moments through the lens. From astrophotography to landscapes and storm chasing, I've explored diverse realms of visual storytelling."
   },  
   {
     image: '/hob_trekking.png',
@@ -55,7 +55,7 @@ const testimonialData = [
     title: 'Gaming',
     icon: <GiGamepad />,
     text:
-      "Gaming, a lifelong pursuit, has taken me from the nostalgic adventures of Alex Kidd to the strategic realms of League of Legends and Civilization. It's a journey through time and technology, where virtual worlds become a canvas for my imagination."
+      "Gaming, a lifelong passion, has taken me from the nostalgic adventures of Alex Kidd to the strategic realms of League of Legends and Civilization. It's a journey through time and technology, where virtual worlds become a canvas for my imagination."
   },
   {
     image: '/hob_volunt.png',
@@ -99,7 +99,7 @@ const HobbieSlider = () => {
                 <div className="flex flex-col justify-center text-center mt-2">
                   {/* image */}
                   <div className="mb-2 mx-auto border-4 border-white/20 rounded-sm">
-                    <Image src={hobbie.image} width={220} height={220} alt=""/>
+                    <Image src={hobbie.image} width={220} height={165} alt=""/>
                   </div>
                   {/* title */}
                   <div className="text-[12px] uppercase font-extralight tracking-widest">
