@@ -59,13 +59,13 @@ const workSlides = {
           url: "https://warm-bienenstitch-60cce0.netlify.app/index.html",
         },
         {
-          path: "/Mockup_cs_l.png",
+          path: "/Mockup_cs_l.png?v=2",
           state: "finished",
           url: "",
         },
         {
           title: "title",
-          path: "/Mockup_cs_r.png",
+          path: "/Mockup_cs_r.png?v=2",
           state: "finished",
           url: "",
         },
